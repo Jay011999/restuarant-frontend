@@ -1,0 +1,114 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+} */
+body{
+    background-color: #edefee;
+    font-family: 'Mirkazi Text',serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+
+h2{
+    font-size: 2rem;
+    margin-left: 10px;
+}
+
+p{
+    font-size: 2.5vh;
+    margin: 2px;
+    padding-left: 10px;
+}
+
+section{
+    display: flex;
+}
+header > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav ul{
+    list-style: none;
+    text-align: center;
+}
+nav a{
+    color: #fff;
+    text-decoration: none;
+}
+
+nav li{
+    display: inline-block;
+    font-size: 1.5rem;
+}
+
+nav{
+    margin-top: 25px;
+    padding: 0.5px;
+    background-color: rgba(0,0,0,.7);
+    border-radius: 20px;
+}
+
+
+
+.flex-container{
+    margin:  10px;
+    padding: 10px;
+
+}
+
+
+.main_card{
+    display: block;
+    background-size: cover;
+    background-image:url("/images/main-bg.jpeg");
+    background-repeat: no-repeat;
+    color: white;
+    border-radius: 1rem;
+    padding: 2px 1 0 5px;
+
+}
+
+
+article {
+    flex: 1;
+}
+
+
+
+.cards{
+    background-color: #ffdd9e;
+    border-radius: 20px;
+    margin: 10px;
+    
+}
+
+.cards > img{
+    display: flex;
+    border-radius: 20px;
+    margin-left: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+.copyright{
+    text-decoration:solid overline slategray;
+    float: right;
+}
+
+footer{
+    display: flex;
+}
+
+footer div{
+    flex: 1;
+}
